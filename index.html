@@ -858,7 +858,14 @@ function refreshSummary() {
 }
 
 // ── IMAGE GRID ──
-const GALLERY_IMAGES = Array.from({length: 6}, (_, i) => `images/gallery${i+1}.png`);
+const GALLERY_IMAGES = [
+  'https://github.com/jubairhossaintayaib/combo/blob/main/images/gallery1.png?raw=true',
+  'https://github.com/jubairhossaintayaib/combo/blob/main/images/gallery2.png?raw=true',
+  'https://github.com/jubairhossaintayaib/combo/blob/main/images/gallery3.png?raw=true',
+  'https://github.com/jubairhossaintayaib/combo/blob/main/images/gallery4.png?raw=true',
+  'https://github.com/jubairhossaintayaib/combo/blob/main/images/gallery5.png?raw=true',
+  'https://github.com/jubairhossaintayaib/combo/blob/main/images/gallery6.png?raw=true'
+];
 let validImages = [], lightboxIdx = 0;
 
 function initImageGrids() {
